@@ -1,0 +1,68 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+
+        //- rinaz icons
+        link(rel="stylesheet" href="icons/icons.css")
+        //- Rinaz Css
+        link(rel="stylesheet" href="css/rinaz.css")
+        title Document
+    body
+        //- buttons
+            .btn normal
+            .btn.btn-light light
+            .btn.btn-dark dark
+            .btn.btn-primary primary
+            .btn.btn-gray Gray
+            .btn.btn-success success
+            .btn.btn-danger danger
+            .btn.btn-warning warning
+        //- outline buttons
+            .btn.btn-outline-primary primary
+            .btn.btn-outline-gray gray
+            .btn.btn-outline-success success
+            .btn.btn-outline-danger danger
+            .btn.btn-outline-warning warning
+            .btn.btn-outline-dark dark
+        //- button size
+            .btn.btn-primary.btn-lg large
+            .btn.btn-primary.btn-sm small
+        .special-container#special-container
+            .navbar#navbar.shadow
+                .navbar__toggle 
+                    i.ri.ri-menu-left#navbar-toggle
+                .navbar__avatar
+                    img(src="avatar.svg" alt="")
+            .left-sidebar#left-sidebar
+                .sidebar
+                    a.sidebar__logo
+                        i.ri.ri-iphone.sidebar__logo-icon
+                        span.sidebar__logo-name Rinaz
+                    .sidebar__list 
+                        a.sidebar__link.active
+                            i.ri.ri-home
+                            span.sidebar__name Home
+                        a.sidebar__link
+                            i.ri.ri-minimize
+                            span.sidebar__name user
+                        a.sidebar__link
+                            i.ri.ri-unlock
+                            span.sidebar__name users
+                        a.sidebar__link
+                            i.ri.ri-setting
+                            span.sidebar__name ticket
+                        a.sidebar__link
+                            i.ri.ri-maximize
+                            span.sidebar__name star
+                        a.sidebar__link
+                            i.ri.ri-star
+                            span.sidebar__name settings
+            .btn.btn-danger-light danger
+            .btn.btn-warning-light.shadow-sm warning 
+            .btn.btn-success-light.shadow success
+            
+        
+        script(src="js/rinaz.js") 
