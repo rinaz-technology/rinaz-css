@@ -33,6 +33,6 @@ const concatenatedCSS = cssCodeArray.join("\n");
 const minifiedCSS = new CleanCSS().minify(concatenatedCSS).styles;
 
 // Write the minified CSS to a file
-fs.writeFileSync("../css/minified.css", minifiedCSS, "utf-8");
+fs.writeFileSync("../cssMinified/minified.css", minifiedCSS, "utf-8");
 
 console.log("CSS minified and saved to minified.css");
