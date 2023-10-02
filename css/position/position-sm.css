@@ -1,0 +1,51 @@
+@media (min-width: 640px) {
+  .static-sm {
+    position: static;
+  }
+
+  .relative-sm {
+    position: relative;
+  }
+
+  .absolute-sm {
+    position: absolute;
+  }
+
+  .fixed-sm {
+    position: fixed;
+  }
+
+  .sticky-sm {
+    position: sticky;
+  }
+
+  .inset-0-sm {
+    inset: 0px;
+  }
+  .inset-x-0-sm {
+    left: 0px;
+    right: 0px;
+  }
+  .inset-y-0-sm {
+    top: 0px;
+    bottom: 0px;
+  }
+  .start-0-sm {
+    inset-inline-start: 0px;
+  }
+  .end-0-sm {
+    inset-inline-end: 0px;
+  }
+  .top-0-sm {
+    top: 0px;
+  }
+  .right-0-sm {
+    right: 0px;
+  }
+  .bottom-0-sm {
+    bottom: 0px;
+  }
+  .left-0-sm {
+    left: 0px;
+  }
+}

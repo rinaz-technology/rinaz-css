@@ -1,0 +1,51 @@
+@media (min-width: 1024px) {
+  .static-lg {
+    position: static;
+  }
+
+  .relative-lg {
+    position: relative;
+  }
+
+  .absolute-lg {
+    position: absolute;
+  }
+
+  .fixed-lg {
+    position: fixed;
+  }
+
+  .sticky-lg {
+    position: sticky;
+  }
+
+  .inset-0-lg {
+    inset: 0px;
+  }
+  .inset-x-0-lg {
+    left: 0px;
+    right: 0px;
+  }
+  .inset-y-0-lg {
+    top: 0px;
+    bottom: 0px;
+  }
+  .start-0-lg {
+    inset-inline-start: 0px;
+  }
+  .end-0-lg {
+    inset-inline-end: 0px;
+  }
+  .top-0-lg {
+    top: 0px;
+  }
+  .right-0-lg {
+    right: 0px;
+  }
+  .bottom-0-lg {
+    bottom: 0px;
+  }
+  .left-0-lg {
+    left: 0px;
+  }
+}

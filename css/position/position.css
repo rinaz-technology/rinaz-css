@@ -1,21 +1,21 @@
 .static {
-  position: static !important;
+  position: static;
 }
 
 .relative {
-  position: relative !important;
+  position: relative;
 }
 
 .absolute {
-  position: absolute !important;
+  position: absolute;
 }
 
 .fixed {
-  position: fixed !important;
+  position: fixed;
 }
 
 .sticky {
-  position: sticky !important;
+  position: sticky;
 }
 
 .inset-0 {

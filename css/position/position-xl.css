@@ -1,0 +1,51 @@
+@media (min-width: 1280px) {
+  .static-xl {
+    position: static;
+  }
+
+  .relative-xl {
+    position: relative;
+  }
+
+  .absolute-xl {
+    position: absolute;
+  }
+
+  .fixed-xl {
+    position: fixed;
+  }
+
+  .sticky-xl {
+    position: sticky;
+  }
+
+  .inset-0-xl {
+    inset: 0px;
+  }
+  .inset-x-0-xl {
+    left: 0px;
+    right: 0px;
+  }
+  .inset-y-0-xl {
+    top: 0px;
+    bottom: 0px;
+  }
+  .start-0-xl {
+    inset-inline-start: 0px;
+  }
+  .end-0-xl {
+    inset-inline-end: 0px;
+  }
+  .top-0-xl {
+    top: 0px;
+  }
+  .right-0-xl {
+    right: 0px;
+  }
+  .bottom-0-xl {
+    bottom: 0px;
+  }
+  .left-0-xl {
+    left: 0px;
+  }
+}
