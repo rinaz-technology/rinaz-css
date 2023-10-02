@@ -17,3 +17,33 @@
 .sticky {
   position: sticky !important;
 }
+
+.inset-0 {
+  inset: 0px;
+}
+.inset-x-0 {
+  left: 0px;
+  right: 0px;
+}
+.inset-y-0 {
+  top: 0px;
+  bottom: 0px;
+}
+.start-0 {
+  inset-inline-start: 0px;
+}
+.end-0 {
+  inset-inline-end: 0px;
+}
+.top-0 {
+  top: 0px;
+}
+.right-0 {
+  right: 0px;
+}
+.bottom-0 {
+  bottom: 0px;
+}
+.left-0 {
+  left: 0px;
+}

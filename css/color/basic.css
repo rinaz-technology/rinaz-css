@@ -1,0 +1,26 @@
+/* background */
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-black {
+  background-color: black;
+}
+.bg-inherit {
+  background-color: inherit;
+}
+
+/* text */
+
+.text-white {
+  color: white;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-inherit {
+  color: inherit;
+}

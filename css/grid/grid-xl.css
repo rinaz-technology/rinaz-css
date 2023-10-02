@@ -1,0 +1,319 @@
+@media (min-width: 1280px) {
+  /* Grid Template Columns */
+
+  .grid-cols-1-xl {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .grid-cols-2-xl {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .grid-cols-3-xl {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .grid-cols-4-xl {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .grid-cols-5-xl {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+  .grid-cols-6-xl {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+  .grid-cols-7-xl {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+  }
+  .grid-cols-8-xl {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+  .grid-cols-9-xl {
+    grid-template-columns: repeat(9, minmax(0, 1fr));
+  }
+  .grid-cols-10-xl {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+  }
+  .grid-cols-11-xl {
+    grid-template-columns: repeat(11, minmax(0, 1fr));
+  }
+  .grid-cols-12-xl {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+  .grid-cols-none-xl {
+    grid-template-columns: none;
+  }
+
+  /* Grid Column Start / End */
+
+  .col-auto-xl {
+    grid-column: auto;
+  }
+  .col-span-1-xl {
+    grid-column: span 1 / span 1;
+  }
+  .col-span-2-xl {
+    grid-column: span 2 / span 2;
+  }
+  .col-span-3-xl {
+    grid-column: span 3 / span 3;
+  }
+  .col-span-4-xl {
+    grid-column: span 4 / span 4;
+  }
+  .col-span-5-xl {
+    grid-column: span 5 / span 5;
+  }
+  .col-span-6-xl {
+    grid-column: span 6 / span 6;
+  }
+  .col-span-7-xl {
+    grid-column: span 7 / span 7;
+  }
+  .col-span-8-xl {
+    grid-column: span 8 / span 8;
+  }
+  .col-span-9-xl {
+    grid-column: span 9 / span 9;
+  }
+  .col-span-10-xl {
+    grid-column: span 10 / span 10;
+  }
+  .col-span-11-xl {
+    grid-column: span 11 / span 11;
+  }
+  .col-span-12-xl {
+    grid-column: span 12 / span 12;
+  }
+  .col-span-full-xl {
+    grid-column: 1 / -1;
+  }
+  .col-start-1-xl {
+    grid-column-start: 1;
+  }
+  .col-start-2-xl {
+    grid-column-start: 2;
+  }
+  .col-start-3-xl {
+    grid-column-start: 3;
+  }
+  .col-start-4-xl {
+    grid-column-start: 4;
+  }
+  .col-start-5-xl {
+    grid-column-start: 5;
+  }
+  .col-start-6-xl {
+    grid-column-start: 6;
+  }
+  .col-start-7-xl {
+    grid-column-start: 7;
+  }
+  .col-start-8-xl {
+    grid-column-start: 8;
+  }
+  .col-start-9-xl {
+    grid-column-start: 9;
+  }
+  .col-start-10-xl {
+    grid-column-start: 10;
+  }
+  .col-start-11-xl {
+    grid-column-start: 11;
+  }
+  .col-start-12-xl {
+    grid-column-start: 12;
+  }
+  .col-start-13-xl {
+    grid-column-start: 13;
+  }
+  .col-start-auto-xl {
+    grid-column-start: auto;
+  }
+  .col-end-1-xl {
+    grid-column-end: 1;
+  }
+  .col-end-2-xl {
+    grid-column-end: 2;
+  }
+  .col-end-3-xl {
+    grid-column-end: 3;
+  }
+  .col-end-4-xl {
+    grid-column-end: 4;
+  }
+  .col-end-5-xl {
+    grid-column-end: 5;
+  }
+  .col-end-6-xl {
+    grid-column-end: 6;
+  }
+  .col-end-7-xl {
+    grid-column-end: 7;
+  }
+  .col-end-8-xl {
+    grid-column-end: 8;
+  }
+  .col-end-9-xl {
+    grid-column-end: 9;
+  }
+  .col-end-10-xl {
+    grid-column-end: 10;
+  }
+  .col-end-11-xl {
+    grid-column-end: 11;
+  }
+  .col-end-12-xl {
+    grid-column-end: 12;
+  }
+  .col-end-13-xl {
+    grid-column-end: 13;
+  }
+  .col-end-auto-xl {
+    grid-column-end: auto;
+  }
+
+  /* Grid Template Rows */
+
+  .grid-rows-1-xl {
+    grid-template-rows: repeat(1, minmax(0, 1fr));
+  }
+  .grid-rows-2-xl {
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+  }
+  .grid-rows-3-xl {
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+  }
+  .grid-rows-4-xl {
+    grid-template-rows: repeat(4, minmax(0, 1fr));
+  }
+  .grid-rows-5-xl {
+    grid-template-rows: repeat(5, minmax(0, 1fr));
+  }
+  .grid-rows-6-xl {
+    grid-template-rows: repeat(6, minmax(0, 1fr));
+  }
+  .grid-rows-none-xl {
+    grid-template-rows: none;
+  }
+
+  /* Grid Row Start / End */
+
+  .row-auto-xl {
+    grid-row: auto;
+  }
+  .row-span-1-xl {
+    grid-row: span 1 / span 1;
+  }
+  .row-span-2-xl {
+    grid-row: span 2 / span 2;
+  }
+  .row-span-3-xl {
+    grid-row: span 3 / span 3;
+  }
+  .row-span-4-xl {
+    grid-row: span 4 / span 4;
+  }
+  .row-span-5-xl {
+    grid-row: span 5 / span 5;
+  }
+  .row-span-6-xl {
+    grid-row: span 6 / span 6;
+  }
+  .row-span-full-xl {
+    grid-row: 1 / -1;
+  }
+  .row-start-1-xl {
+    grid-row-start: 1;
+  }
+  .row-start-2-xl {
+    grid-row-start: 2;
+  }
+  .row-start-3-xl {
+    grid-row-start: 3;
+  }
+  .row-start-4-xl {
+    grid-row-start: 4;
+  }
+  .row-start-5-xl {
+    grid-row-start: 5;
+  }
+  .row-start-6-xl {
+    grid-row-start: 6;
+  }
+  .row-start-7-xl {
+    grid-row-start: 7;
+  }
+  .row-start-auto-xl {
+    grid-row-start: auto;
+  }
+  .row-end-1-xl {
+    grid-row-end: 1;
+  }
+  .row-end-2-xl {
+    grid-row-end: 2;
+  }
+  .row-end-3-xl {
+    grid-row-end: 3;
+  }
+  .row-end-4-xl {
+    grid-row-end: 4;
+  }
+  .row-end-5-xl {
+    grid-row-end: 5;
+  }
+  .row-end-6-xl {
+    grid-row-end: 6;
+  }
+  .row-end-7-xl {
+    grid-row-end: 7;
+  }
+  .row-end-auto-xl {
+    grid-row-end: auto;
+  }
+
+  /* Grid Auto Flow */
+
+  .grid-flow-row-xl {
+    grid-auto-flow: row;
+  }
+  .grid-flow-col-xl {
+    grid-auto-flow: column;
+  }
+  .grid-flow-dense-xl {
+    grid-auto-flow: dense;
+  }
+  .grid-flow-row-dense-xl {
+    grid-auto-flow: row dense;
+  }
+  .grid-flow-col-dense-xl {
+    grid-auto-flow: column dense;
+  }
+
+  /* Grid Auto Columns */
+
+  .auto-cols-auto-xl {
+    grid-auto-columns: auto;
+  }
+  .auto-cols-min-xl {
+    grid-auto-columns: min-content;
+  }
+  .auto-cols-max-xl {
+    grid-auto-columns: max-content;
+  }
+  .auto-cols-fr-xl {
+    grid-auto-columns: minmax(0, 1fr);
+  }
+
+  /* Grid Auto Rows */
+
+  .auto-rows-auto-xl {
+    grid-auto-rows: auto;
+  }
+  .auto-rows-min-xl {
+    grid-auto-rows: min-content;
+  }
+  .auto-rows-max-xl {
+    grid-auto-rows: max-content;
+  }
+  .auto-rows-fr-xl {
+    grid-auto-rows: minmax(0, 1fr);
+  }
+}
